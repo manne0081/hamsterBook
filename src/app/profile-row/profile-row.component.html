@@ -1,0 +1,11 @@
+<div class="profile-row margin-bottom-16">
+    <img src="{{image}}" alt="">
+
+    <div class="name">
+        <b>{{name}}</b><br>
+        <span class="description">{{description}}</span>
+    </div>
+
+    <a *ngIf="canFollow" (click)="friendService.addFriend(name, description, image); canFollow = false">Folgen</a>
+
+</div>

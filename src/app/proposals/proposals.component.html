@@ -1,0 +1,16 @@
+<app-profile-row [canFollow]="false"></app-profile-row>
+
+<div class="margin-bottom-16">
+    <b>Freundesvorschläge</b>
+</div>
+
+<!-- <app-profile-row [image]="images[0]" [name]="names[0]" [description]="descriptions[0]"></app-profile-row>
+<app-profile-row [image]="images[1]" [name]="names[1]" [description]="descriptions[1]"></app-profile-row>
+<app-profile-row [image]="images[2]" [name]="names[2]" [description]="descriptions[2]"></app-profile-row>
+<app-profile-row [image]="images[3]" [name]="names[3]" [description]="descriptions[3]"></app-profile-row> -->
+
+<app-profile-row *ngFor="let proposal of [0,1,2,3]"
+                    [image]="images[proposal]"
+                    [name]="names[proposal]"
+                    [description]="descriptions[proposal]">
+</app-profile-row>
