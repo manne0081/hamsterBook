@@ -18,7 +18,7 @@ export class AppComponent {
         'Hallo, mein Name ist Frederik! Ich bin hier, um neue Freunde zu treffen!',
         'Hallo zusammen. Freut mich, dass ihr hier seid!!',
         'Hey, mein Name ist Susanne. Ich bin 2 Jahre alt.',
-        'Ich esse gerne Keckse.'
+        'Ich esse gerne Kekse.'
     ];
 
     buttonClicked():void {

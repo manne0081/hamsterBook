@@ -10,19 +10,25 @@ export class ProposalsComponent implements OnInit {
         'Marius',
         'Franziska',
         'Josefine',
-        'Patrick'
+        'Patrick',
+        'Franziska',
+        'Josefine',
     ];
     descriptions = [
         '2 Jahre alt',
         'Gräbt gerne',
         'Spielt gerne',
-        'Hamsterrad-Freak'
+        'Hamsterrad-Freak',
+        'Gräbt gerne',
+        'Spielt gerne',
     ];
     images = [
         'assets/img/hamsters/pic1.jpg',
         'assets/img/hamsters/pic2.jpg',
         'assets/img/hamsters/pic3.jpg',
         'assets/img/hamsters/pic4.jpg',
+        'assets/img/hamsters/pic2.jpg',
+        'assets/img/hamsters/pic3.jpg',
     ];
 
     constructor() { }
